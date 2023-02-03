@@ -2,7 +2,7 @@
   padding-left: 1rem;
 }
 .nav-item {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 .about-section {
   padding-top: 60px;
@@ -25,4 +25,25 @@ p {
   font-size: 18px;
   font-weight: normal;
   color: #333;
+}
+.greenTextOverride {
+  color: rgb(15, 229, 15);
+}
+.redTextOverride {
+  color: red;
+}
+.blueTextOverride {
+  color: rgb(0, 119, 255);
+}
+.slideimage {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slide-in 1s forwards;
+}
+
+@keyframes slide-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

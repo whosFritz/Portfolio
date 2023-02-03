@@ -41,6 +41,27 @@ p {
   animation: slide-in 1s forwards;
 }
 
+.MensiMates_link {
+  color: rgb(15, 229, 15);
+}
+.MensiMates_link:hover {
+  color: rgb(15, 229, 15);
+}
+
+.MensiDates_link {
+  color: red;
+}
+.MensiDates_link:hover {
+  color: red;
+}
+
+.MensiPay_link {
+  color: rgb(0, 119, 255);
+}
+.MensiMates_link:hover {
+  color: rgb(0, 119, 255);
+}
+
 @keyframes slide-in {
   to {
     opacity: 1;

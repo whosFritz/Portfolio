@@ -26,7 +26,7 @@ p {
   font-weight: normal;
   color: #333;
 }
-.greenTextOverride {
+.orangeTextOverride {
   color: rgb(255, 157, 0);
 }
 .redTextOverride {
@@ -59,7 +59,7 @@ p {
 .MensiPay_link {
   color: rgb(0, 119, 255);
 }
-.MensiMates_link:hover {
+.MensiPay_link:hover {
   color: rgb(0, 119, 255);
 }
 

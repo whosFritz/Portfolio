@@ -27,7 +27,7 @@ p {
   color: #333;
 }
 .greenTextOverride {
-  color: rgb(15, 229, 15);
+  color: rgb(255, 157, 0);
 }
 .redTextOverride {
   color: red;
@@ -43,10 +43,10 @@ p {
 }
 
 .MensiMates_link {
-  color: rgb(15, 229, 15);
+  color: rgb(255, 157, 0);
 }
 .MensiMates_link:hover {
-  color: rgb(15, 229, 15);
+  color: rgb(255, 157, 0);
 }
 
 .MensiDates_link {

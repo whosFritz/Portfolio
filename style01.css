@@ -9,6 +9,18 @@
   padding-bottom: 60px;
 }
 
+#projects-section {
+  padding-top: 1px;
+}
+
+#social-media-section {
+  padding-top: 10px;
+}
+
+#github-section {
+  padding-top: 75px;
+}
+
 h2.text-secondary {
   font-size: 36px;
   font-weight: bold;

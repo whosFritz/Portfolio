@@ -87,7 +87,6 @@ p {
   align-items: center;
 }
 .description-right-align {
-  text-align: right;
 }
 
 @keyframes slide-in {

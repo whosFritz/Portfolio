@@ -47,6 +47,9 @@ p {
 .blueTextOverride {
   color: rgb(0, 119, 255);
 }
+.greenTextOverride {
+  color: rgb(43, 214, 72);
+}
 .slideimage {
   opacity: 0;
   transform: translateY(50px);
@@ -67,12 +70,24 @@ p {
 .MensiDates_link:hover {
   color: red;
 }
-
 .MensiPay_link {
   color: rgb(0, 119, 255);
 }
 .MensiPay_link:hover {
   color: rgb(0, 119, 255);
+}
+.threeD-BA-Leipzig-Link {
+  color: rgb(43, 214, 72);
+}
+.threeD-BA-Leipzig-Link:hover {
+  color: rgb(43, 214, 72);
+}
+.picture-centered {
+  display: flex;
+  align-items: center;
+}
+.description-right-align {
+  text-align: right;
 }
 
 @keyframes slide-in {

@@ -1,5 +1,11 @@
+.container {
+  border-radius: 25px;
+}
 .navbar-brand {
   padding-left: 1rem;
+}
+.ownLinks {
+  font-weight: bold;
 }
 .nav-item {
   padding-left: 2rem;
@@ -39,16 +45,16 @@ p {
   color: #333;
 }
 .orangeTextOverride {
-  color: rgb(255, 157, 0);
+  color: rgb(207, 144, 41);
 }
 .redTextOverride {
-  color: red;
+  color: rgb(184, 48, 48);
 }
 .blueTextOverride {
-  color: rgb(0, 119, 255);
+  color: rgb(56, 121, 196);
 }
 .greenTextOverride {
-  color: rgb(43, 214, 72);
+  color: rgb(57, 182, 78);
 }
 .slideimage {
   opacity: 0;
@@ -59,29 +65,29 @@ p {
 }
 
 .MensiMates_link {
-  color: rgb(255, 157, 0);
+  color: rgb(207, 144, 41);
 }
 .MensiMates_link:hover {
-  color: rgb(255, 157, 0);
+  color: rgb(207, 144, 41);
 }
 
 .MensiDates_link {
-  color: red;
+  color: rgb(184, 48, 48);
 }
 .MensiDates_link:hover {
-  color: red;
+  color: rgb(184, 48, 48);
 }
 .MensiPay_link {
-  color: rgb(0, 119, 255);
+  color: rgb(56, 121, 196);
 }
 .MensiPay_link:hover {
-  color: rgb(0, 119, 255);
+  color: rgb(56, 121, 196);
 }
 .threeD-BA-Leipzig-Link {
-  color: rgb(43, 214, 72);
+  color: rgb(57, 182, 78);
 }
 .threeD-BA-Leipzig-Link:hover {
-  color: rgb(43, 214, 72);
+  color: rgb(57, 182, 78);
 }
 .picture-centered {
   display: flex;

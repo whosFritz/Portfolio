@@ -49,17 +49,20 @@ p {
   font-weight: normal;
   color: #333;
 }
-.orangeTextOverride {
+.mensi_mates_font {
   color: rgb(207, 144, 41);
 }
-.redTextOverride {
+.mensi_dates_font {
   color: rgb(184, 48, 48);
 }
-.blueTextOverride {
+.mensi_pay_font {
   color: rgb(56, 121, 196);
 }
-.greenTextOverride {
+.threeD-BA-Leipzig-Link_font {
   color: rgb(57, 182, 78);
+}
+.permission_tracker_font {
+  color: rgb(8, 217, 214);
 }
 .slideimage {
   opacity: 0;
@@ -93,6 +96,12 @@ p {
 }
 .threeD-BA-Leipzig-Link:hover {
   color: rgb(57, 182, 78);
+}
+.permission_tracker {
+  color: rgb(8, 217, 214);
+}
+.permission_tracker:hover {
+  color: rgb(8, 217, 214);
 }
 .picture-centered {
   display: flex;

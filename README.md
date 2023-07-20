@@ -1,3 +1,3 @@
-## Portfolio build with HTML, Bootstrap and a lot of ChatGPT. Big Thanks to Eric Jarka for providing the Images
+## Portfolio build with HTML, Bootstrap and basic CSSS. Big Thanks to Eric Jarka for providing the Logos.
 
 [<span style="font-size: large; color: blue; font-weight: bold;">www.whosfritz.de</span>](https://www.whosfritz.de)

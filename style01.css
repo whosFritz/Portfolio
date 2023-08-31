@@ -52,7 +52,7 @@ p {
 .mensi_mates_font {
   color: rgb(207, 144, 41);
 }
-.mensi_dates_font {
+.ivan_font {
   color: rgb(184, 48, 48);
 }
 .mensi_pay_font {
@@ -79,10 +79,10 @@ p {
   color: rgb(207, 144, 41);
 }
 
-.MensiDates_link {
+.ivan_link {
   color: rgb(184, 48, 48);
 }
-.MensiDates_link:hover {
+.ivan_link:hover {
   color: rgb(184, 48, 48);
 }
 .MensiPay_link {

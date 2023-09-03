@@ -10,10 +10,10 @@ function checkCookie() {
   const decisionCookie = getCookie("cookieConsent");
   if (!decisionCookie) {
     // Show the cookie consent banner if the decision cookie doesn't exist
-    document.getElementById("cookie-consent-banner").style.display = "block";
+    document.getElementById("cookieConsentBanner").style.display = "block";
   } else {
     // Hide the cookie consent banner if the decision cookie exists
-    document.getElementById("cookie-consent-banner").style.display = "none";
+    document.getElementById("cookieConsentBanner").style.display = "none";
   }
 }
 
@@ -24,11 +24,11 @@ function getCookie(name) {
 }
 
 // Event listener for the accept button
-document.getElementById("accept-cookie").addEventListener("click", () => {
+document.getElementById("acceptCookiesButton").addEventListener("click", () => {
   // Set the "decision cookie" to 'accepted' for 365 days (adjust as needed)
   setCookie("cookieConsent", "accepted", 365);
   // Hide the cookie consent banner
-  document.getElementById("cookie-consent-banner").style.display = "none";
+  document.getElementById("cookieConsentBanner").style.display = "none";
 });
 
 // Check the "decision cookie" when the page loads

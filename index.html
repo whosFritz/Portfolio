@@ -126,20 +126,35 @@
   </script>
   <body>
     <div
-      id="cookie-consent-banner"
+      id="cookieConsentBanner"
       class="alert alert-info fixed-bottom mb-0 rounded-0"
     >
-      Diese Webseite benutzt Cookies. Diese sind technisch notwendig.
-      <a
-        href="/datenschutzerklaerung.html"
-        target="_blank"
-        class="btn btn-primary btn-sm"
-        >Privacy Policy</a
-      >
-      <button type="button" class="btn btn-success btn-sm" id="accept-cookie">
-        Accept
-      </button>
+      <div class="container">
+        <div class="justify-content-between">
+          <div>
+            Diese Webseite benutzt Cookies. Wenn Sie die Webseite weiter nutzen,
+            gehen wir von Ihrem Einverständnis aus. Die Cookies sind für die
+            Funktion der Webseite notwendig. Sie können die Cookies in den
+            Einstellungen Ihres Browsers deaktivieren.
+          </div>
+          <div class="mt-3">
+            <a
+              href="/datenschutzerklaerung.html"
+              class="btn btn-primary btn-sm mr-2"
+              >Datenschutzerklärung</a
+            >
+            <button
+              type="button"
+              class="btn btn-success btn-sm"
+              id="acceptCookiesButton"
+            >
+              Akzeptieren
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
+
     <section id="about-section" class="about-section">
       <div class="container">
         <div class="row">

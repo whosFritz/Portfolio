@@ -153,12 +153,3 @@ p {
 .menu-1 a:hover::before {
   transform-origin: 0 50%;
 }
-#cookieConsentBannerContainer {
-  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.8
-  ); /* Adjust the background color and opacity as needed */
-}

@@ -1,3 +1,23 @@
+document.addEventListener("DOMContentLoaded", function () {
+  // Make a GET request to the Spotify API
+
+  let headersList = {
+    Accept: "*/*",
+  };
+
+  fetch("https://spotify.whosfritz.de/spotifywhosfritz", {
+    method: "GET",
+    headers: headersList,
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      // Update the src attribute of the iframe with the received favSongID
+      const spotifyIframe = document.getElementById("spotifyIframe");
+      spotifyIframe.src = `https://open.spotify.com/embed/track/${data.favSongID}?utm_source=generator`;
+    })
+    .catch((error) => console.error("Error fetching data:", error));
+});
+
 // Function to set a cookie
 function setCookie(name, value, days) {
   const expires = new Date();
